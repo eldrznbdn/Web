@@ -47,3 +47,48 @@
 .second__right__picture {
     margin-left: 57px;
 }
+
+@media screen and (min-device-width: 230px) and (max-width: 860px) {
+    .second__left {
+        width: 100%;
+    }
+
+    .second__paragraph{
+        width: 100%;
+    }
+
+    .second__right__picture {
+        display: none;
+    }
+}
+
+@media screen and (min-device-width: 230px) and (max-width: 400px) {
+    .second__section {
+        height: 480px;
+    }
+
+    .second__left {
+        height: 100%;
+    }
+
+    .second__title {
+        font-weight: 700;
+        height: 30px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .second__paragraph {
+        margin-top: 30px;
+        font-weight: 380;
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .second_button {
+        border: 1px solid #646D70;
+        border-radius: 4px;
+        margin-top: 70px;
+        transition: 0.3s;
+    }
+}

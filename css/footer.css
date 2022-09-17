@@ -31,3 +31,22 @@
     opacity: 0.6;
     margin-left: 30px;
 }
+
+@media screen and (min-device-width: 550px) and (max-width: 1100px) {
+    .footer {
+        margin: 0;
+    }
+}
+
+@media screen and (min-device-width: 230px) and (max-width: 550px) {
+    .footer__logo {
+        display: none;
+    }
+}
+
+@media screen and (min-device-width: 230px) and (max-width: 300px) {
+    .footer__logo  {
+        display: none;
+    }
+
+}

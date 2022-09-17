@@ -15,15 +15,18 @@
     <section class="hero">
         <div class="container">
             <header class="header">
+                <div class="header__menu" onclick="toggleMenu()">
+                    <img src="/img/menu-icon.svg" alt="Menu icon">
+                </div>
                 <div class="header-logo">
                     <img src="/img/logo.png" alt="logo">
                 </div>
-                <nav class="header__nav">
+                <nav id="nav-links" class="header__nav">
                     <ul>
-                        <li class="header__nav-item"><a href="">Modellen</a></li>
-                        <li class="header__nav-item"><a href="">Kopen</a></li>
-                        <li class="header__nav-item"><a href="">Huren</a></li>
-                        <li class="header__nav-item"><a href="">Nieuws</a></li>
+                        <li class="header__nav-item"><a href="header__nav-link">Modellen</a></li>
+                        <li class="header__nav-item"><a href="header__nav-link">Kopen</a></li>
+                        <li class="header__nav-item"><a href="header__nav-link">Huren</a></li>
+                        <li class="header__nav-item"><a href="header__nav-link">Nieuws</a></li>
                     </ul>
                 </nav>
 
@@ -44,7 +47,9 @@
                         <img src="/img/Shape.png" alt="triangle">
                     </div>
                 </div>
-                <p class="hero_right_title">Watch the movie</p>
+                <p class="hero_right_title">
+                   <a href="https://www.youtube.com/watch?v=CqNR3WZCSE4">Watch the movie</a> 
+                </p>
             </div>
 
         </div>
@@ -98,15 +103,24 @@
                 </div>
                 <div class="fourth__right">
                     <div class="fourth__right__boxes">
-                        <h1 class="fourth__title__boxes">Wood</h1>
-                        <p class="fourth_text">De draagconstructies van EcoCabins bestaan uit hout. Hout is duurzaam en.
-                        </p>
-                        <h1 class="fourth__title__boxes">Workmanship</h1>
-                        <p class="fourth_text">De draagconstructies van EcoCabins bestaan uit hout. Hout is duurzaam en.
-                        </p>
-                        <h1 class="fourth__title__boxes">Steel base</h1>
-                        <p class="fourth_text">Het stalen onderstel is sterk zijn en heeft de benodigde stijfheid die
-                        </p>
+                        <div>
+                            <h1 class="fourth__title__boxes">Wood</h1>
+                            <p class="fourth_text">De draagconstructies van EcoCabins bestaan uit hout. Hout is duurzaam
+                                en.
+                            </p>
+                        </div>
+                        <div>
+                            <h1 class="fourth__title__boxes">Workmanship</h1>
+                            <p class="fourth_text">De draagconstructies van EcoCabins bestaan uit hout. Hout is duurzaam
+                                en.
+                            </p>
+                        </div>
+                        <div>
+                            <h1 class="fourth__title__boxes">Steel base</h1>
+                            <p class="fourth_text">Het stalen onderstel is sterk zijn en heeft de benodigde stijfheid
+                                die
+                            </p>
+                        </div>
                     </div>
                     <div class="fourth__preright__boxes">
                         <div>
@@ -150,7 +164,7 @@
             </div>
         </footer>
     </section>
-
+    <script src="/js/main.js"></script>
 </body>
 
 </html>

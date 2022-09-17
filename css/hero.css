@@ -7,9 +7,15 @@
 }
 
 .hero__inner {
+    display: flex;
+}
+
+.hero__left {
     width: 440px;
     padding-top: 152px;
-
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero__title {
@@ -31,9 +37,8 @@
     display: flex;
     align-items: center;
     position: absolute;
-    width: 131px;
-    left: 1000px;
-    top: 375px;
+    margin-top: -120px;
+    margin-left: 700px;
 }
 
 .oval {
@@ -59,4 +64,10 @@
     line-height: 14px;
     margin-left: 10px;
     color: #FFFFFF;
+}
+
+@media screen and (max-width:1100) {
+    .hero_right {
+        display: none;
+    }
 }

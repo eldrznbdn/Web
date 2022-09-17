@@ -9,6 +9,18 @@ body {
     max-width: 1000px;
 }
 
+@media screen and (max-width:768px) {
+    body {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:450px) {
+    :root {
+        font-size: 12px;
+    }
+}
+
 .container_hero{
     margin: 0 auto;
     max-width: 1000px;
@@ -33,6 +45,16 @@ body {
     max-width: 1000px;
 }
 
+@media screen and (max-width:1024px) {
+    .container {
+        padding: 0 40px;
+    }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
 a {
     text-decoration: none;
     color: #FFFFFF;
@@ -58,4 +80,11 @@ button {
     text-align: center;
     color: #606B74; 
     background: #FFFFFF;
+    transition-duration: 1s;
+}
+
+button:hover {
+    color: aquamarine;
+    background-color: antiquewhite;
+    box-shadow: 0 5px 0px;
 }
